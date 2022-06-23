@@ -1,78 +1,91 @@
 <html>
-<head>
-<title> Task 1 </title>
+    <head>
+        <title> Task 2 </title>
+        <meta charset="UTF-8"> 
+    </head>
+    <body>
+        <h1 style="text-align:center"> Application For Permission To Get A Day Off </h1>
+        <p><strong> Note: </strong> Form is to be completed at least 21 days prior to date </p>
+        <form>
+            <fieldset>
+                <legend><strong> Personal Details </strong></legend>
+                <br>
+                <label for="name" name="name" > Name: </label> 
+                <input type="text" required placeholder="Enter name here" id="name" >
+                <br>
+                <br>
+                <label for="address" name="address" > Address: </label>
+                <input type="text" required placeholder="Enter address here" id="address">
+                <br> 
+                <br>
+                <label for="email" name="email" > Email: </label>
+                <input type="email" required placeholder="Enter Email here" id="email" >
+                <br>
+                <br>
+                <label for="number" name="number"> Phone Number: </label>
+                <input type="number" required placeholder="Enter 10 digit number" minlength="10" id="number">
+                <br>
+                <br>
+                <label> Gender: </label>
+                <br>
+                <br>
+                <input type="radio" name="gender"> <label> Male </label>
+                <br>
+                <input type="radio" name="gender"> <label> Female </label>
+                <br>
+                <input type="radio" name="gender"> <label> Other </label>
+                <br>
+                <br>
+                <label for="date"> Date of end of excuse: </label>
+                <input type="date" required id="date"> 
+            </fieldset>
+            <br>
+            <fieldset>
+                <label> Check All reasons: </label>
+                <br>
+                <br>
+                <input type="checkbox" name="reason"> <label> I have cold </label>
+                <br>
+                <input type="checkbox" name="reason"> <label> I have a family vacation </label>
+                <br>
+                <input type="checkbox" name="reason"> <label> I need to go to doctor </label>
+                <br>
+                <input type="checkbox" name="reason" checked> <label> I work full-time and I deserve a day off </label>
+                <br>
+                <input type="checkbox" name="reason" checked> <label> My parents are sick </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label> Department: </label>
+                <select name="department" required>
+                    <option> IT </option>
+                    <option> HR </option>
+                    <option> PR </option>
 
-</head>
-<body>
-<h1> Aristotle Onassis </h1>
-<h2> 1906 - 1975 </h2>
-<h3> One of the richest people in the 20th century </h3>
-
-
-<p> Aristotle Socrates Onassis (Greek: ApIoToT¿ÀNS Qvãons, Aristotelis Onasis; 20 January 1906 - 15
-    March 1975) |11 commonly called Ari or Aristo Onassis, was a Greek-Argentine shipping magnate
-    who amassed the world's largest privately owned shipping fleet and was one of the world's richest
-    and most famous men. 
-</p>
-
-<img src="Aristotle_Onassis.jpeg" alt=" Aristotle_Onassis">
-<p> The most well-known portrait of OnassIS. </p>
-
-<h3> The following list is a time line of Onassis Life </h3>
-
-<ul>
- <li> <strong> 1906 </strong> - born in Karatas, Smyrna, Ottoman Empire. </li>
- <li> <strong> 1992 </strong> - He left from Smyrna during the great fire of Smyrna in 1922. </li>   
- <li> <strong> 1932 </strong> - He went to Buenos Aires, Argentina and start working as a telephone operator. </li>
- <li> <strong> 1992 </strong> - He left from Smyrna during the great fire of Smyrna in 1922. </li>   
- <li> <strong> 1929 </strong> - He relocated to New York and started his shipping businesses. </li>
- <li> <strong> 1950-1956 </strong> - Onassis had success whaling off the Peruvian coast. </li>
- <li> <strong> 1953 </strong> - In Monaco he started to purchase the shares of Monaco's SMB using the tax haven of Panama and finally take the control of SBM. </li>
- <li> <strong> 1954 </strong> - Cancelation of the agreement between the Saudi government and Aristotle Onassis to
-    transport Saudi oil on his tankers and "in any case, to make the agreement ineffective" </li>
- <li> <strong> 1956 </strong> - Aristotle Onassis signed a contract granting him the operational rights to the Greek air
-    transport industry. Olympic Airways was founded. </li>   
- <li> <strong> 1957 </strong> - Onassis and opera prima donna Maria Callas embarked on an affair despite the fact that they were both married. </li>   
- <li> <strong> 1966 </strong> - Rainer of Monaco approved a plan to create 600.000 new shares in SBM reducing Onassis's stake to under a third. </li>
- <li> <strong> 1967 </strong> - Onassis court until he left Monaco. </li>
- <li> <strong> 1968 </strong> - Onassis announced the launch of Project Omega, a $400 million investment program that aimed to 
-    build considerable industrial infrastructure in Greece including an oil refinery and aluminum smelter. </li>
- <li> <strong> 1968 </strong> - Onassis ended his relationship with Callas to marry Jacqueline Kennedy, widow of U.S. President John F. Kennedy. </li>
- <li> <strong> 1975 </strong> - Onassis died at age 69 on 15 March 1975 at the American Hospital of Paris in Neuilly-sur- Seine, France, of respiratory 
-    failure, a complication of the myasthenia gravis from which he had been suffering during the last years of his life.</li>
-</ul>
-
-<cite> Read more about Aristotle Onassis on </cite>  
-
-
-<a href="https://www.wikipedia.org/"> Wikipedia </a>
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                </select>
+                <label> Your holidays are: </label>
+                <select name="holidays" required>
+                    <option> Fridays and Saturdays </option>
+                    <option> Saturdays and Sundays  </option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> <strong> Essay Section </strong> </legend>
+                <br>
+                <pr> In 50 words or more explain why you want to get a day Off </pr>
+                <br>
+                <br>
+                <textarea name="essay" placeholder="Enter text here" rows="5" cols="60">
+                </textarea>
+                <br>
+                <br>
+                <label> Upload any papers needed: </label>
+                <input type="file" value="Attach Files" required>
+            </fieldset>
+            <br>
+            <br>
+            <input type="submit" value="Send Your Application" style="background-color: red ; position:relative;left: 45%;">
+       </form> 
+    </body>
 </html>

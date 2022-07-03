@@ -1,0 +1,199 @@
+/* Navigation Bar */
+.nav{background-color: white; 
+     height: 50px; 
+     text-align: center;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     letter-spacing: 5px;
+     font-weight: 400;
+     opacity: 200%;
+    }
+.navtitle {float: left; 
+            text-align: center;
+            line-height: 50px; 
+            padding-left: 30px;
+        }
+.navlinks {float:right;
+            width: 50%;
+            position: relative;
+            top: 5%;
+            letter-spacing: 5px;
+        }
+
+.navlist{ list-style-type: none;
+            text-align: right;
+            margin-right: 20px;
+        }
+.navlist li {display: inline-block;
+            text-align: center;
+            padding-inline-start: 20px;
+}
+/* Header */
+.header{
+    height: 800px;
+    background-image: url(hamburger.jpg);
+    background-size: cover;
+    margin: 0;}
+
+h1 {color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: relative;
+    opacity: 60%;
+    top: 650px;
+    padding: 30px;
+    letter-spacing: 5px;
+    font-size: 35px;
+    }
+
+/* About Catering */    
+.aboutcatering{margin-top: 75px;}
+.imageone{ margin-left: 200px ;
+           max-height: 600px ;
+           max-width: 500px;
+           float: left;
+        }
+img {width: 100%;
+     height: 100%;
+    object-fit: cover;
+    opacity: 70%;}
+.textone{ float: right; 
+        }
+h2{font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    height: 80px;
+    position: relative;
+    right: 100px;
+}
+h3{ letter-spacing: 5px;
+    text-align: center;
+    font-weight: 300;
+    height: 30px ;
+    position: relative;
+    right: 100px;
+    }
+.para{ float: right; 
+    padding: 0px;
+    width: 500px;
+    text-align: center;
+}           
+.para1{ text-align:left;
+    font-weight: 280;
+    font-size: 18px ;
+    line-height: 30px;
+    width: 100%;
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+    right: 250px;
+} 
+.para2{ text-align:left;
+    font-weight: 280;
+    font-size: 18px ;
+    line-height: 30px;
+    width: 100%;
+    display: inline-block;
+    line-height: 28px;
+    position: relative;
+    right: 250px;
+    margin-top: 20px;
+    color: gray;
+}
+.word{background-color: lightgray;
+    display: inline;}
+
+/* Menu */    
+.menu{ margin-top: 700px;
+}
+.imagetwo{ float: right;
+            max-height: 600px;
+            max-width: 500px;
+            object-fit: cover;
+            position: relative;
+            right: 250px;
+
+}
+.ourmenu{ text-align: center; 
+            float: left;
+            position: relative;
+            left: 350px;
+        }
+.listmenu{ list-style-type: none;
+            float: left;
+            position: relative;
+            left: 0px;
+            top: 120px;
+        }
+.lista{ letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    height: 30px ;}
+.listb{ margin-top: 10px;
+        margin-bottom: 20px; 
+        color: grey;
+    }
+/* Contact */    
+.contact{margin-top: 1500px;}    
+.contacthead{ text-align: left;
+            position: relative;
+            left: 220px;
+}
+.contactone { position: relative;
+            left: 220px;                           
+}
+.contacttwo{ position: relative;
+            left: 220px;
+            font-weight: 650;
+            font-size: 18px;
+            color: teal;
+        }
+.contactthree{ position: relative;
+               left: 220px; }
+
+.form{ position: relative;
+        left: 220px;
+}
+.formone{ display: inline-block;
+            width: 75%;
+            height: 40px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-color: lightgray;    
+        }
+.formtwo{ display: inline-block;
+            width: 75%;
+            height: 40px;
+            margin-top: 10px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-color: lightgray;
+        }
+.formthree{ display: inline-block;
+            width: 75%;
+            height: 40px;
+            margin-top: 10px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-color: lightgray;    
+}
+.formfour{  display: inline-block;
+            width: 75%;
+            height: 40px;
+            margin-top: 10px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-color: lightgray;
+}
+.submit{ display: inline-block;
+        margin-top: 10px;
+        border: 0;
+        padding: 10px;
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;}

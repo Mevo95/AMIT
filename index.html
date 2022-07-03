@@ -1,91 +1,90 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> Task 2 </title>
-        <meta charset="UTF-8"> 
-    </head>
-    <body>
-        <h1 style="text-align:center"> Application For Permission To Get A Day Off </h1>
-        <p><strong> Note: </strong> Form is to be completed at least 21 days prior to date </p>
-        <form>
-            <fieldset>
-                <legend><strong> Personal Details </strong></legend>
-                <br>
-                <label for="name" name="name" > Name: </label> 
-                <input type="text" required placeholder="Enter name here" id="name" >
-                <br>
-                <br>
-                <label for="address" name="address" > Address: </label>
-                <input type="text" required placeholder="Enter address here" id="address">
-                <br> 
-                <br>
-                <label for="email" name="email" > Email: </label>
-                <input type="email" required placeholder="Enter Email here" id="email" >
-                <br>
-                <br>
-                <label for="number" name="number"> Phone Number: </label>
-                <input type="number" required placeholder="Enter 10 digit number" minlength="10" id="number">
-                <br>
-                <br>
-                <label> Gender: </label>
-                <br>
-                <br>
-                <input type="radio" name="gender"> <label> Male </label>
-                <br>
-                <input type="radio" name="gender"> <label> Female </label>
-                <br>
-                <input type="radio" name="gender"> <label> Other </label>
-                <br>
-                <br>
-                <label for="date"> Date of end of excuse: </label>
-                <input type="date" required id="date"> 
-            </fieldset>
-            <br>
-            <fieldset>
-                <label> Check All reasons: </label>
-                <br>
-                <br>
-                <input type="checkbox" name="reason"> <label> I have cold </label>
-                <br>
-                <input type="checkbox" name="reason"> <label> I have a family vacation </label>
-                <br>
-                <input type="checkbox" name="reason"> <label> I need to go to doctor </label>
-                <br>
-                <input type="checkbox" name="reason" checked> <label> I work full-time and I deserve a day off </label>
-                <br>
-                <input type="checkbox" name="reason" checked> <label> My parents are sick </label>
-            </fieldset>
-            <br>
-            <fieldset>
-                <label> Department: </label>
-                <select name="department" required>
-                    <option> IT </option>
-                    <option> HR </option>
-                    <option> PR </option>
+<head>
+    <title> Gourmet au Catering </title>
+    <meta charset="UTF-8">
+    <meta name="Gourmet au Catering">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ <!--Navigation Bar-->
+    <nav class="nav">
+        <div class="navtitle">
+            Gourmet au Catering
+        </div>
+        <div class="navlinks">
+           <ul class="navlist">
+            <li> About </li>
+            <li> Menu </li>
+            <li> Contact </li>
+           </ul>
+        </div>
+    </nav>
+<!--Page Content-->
+    <div class="pagecontent">
+<!--Header-->        
+        <div class="header">
+        <h1> Le Catering </h1>
+        </div>
+<!--About Catering-->
+        <div class="aboutcatering">
+            <div class="imageone">
+                <img src="tablesetting2.jpg" alt=" tablesetting">
+            </div>
+            <div class="Textone">
+                <h2> About Catering </h2>
+                <h3> Tradition since 1889 </h3>
+                <div class="para">
+                <p1 class="para1">
+                    The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. We only use <div class="word"> seasonal </div> ingredients.
+                </p1>
+                <p2 class="para2">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p2>
+                </div>
+            </div>
+        </div>
+        <br>
+<!--Menu-->
+        <div class="menu">
+            <img src="tablesetting.jpg" alt="tablesetting2" class="imagetwo">
+            <h2 class="ourmenu"> Our Menu </h2>
+            <ul class="listmenu">
+                <li class="lista"> Bread Basket  </li>
+                <li class="listb"> Assortment of fresh baked fruit breads and muffins 5.50  </li>
+                <li class="lista"> Honey Almond Granola with Fruits  </li>
+                <li class="listb"> Natural cereal of honey toasted oats, raisins, almonds and dates 7.00  </li>
+                <li class="lista"> Belgian Waffle  </li>
+                <li class="listb"> Vanilla flavored batter with malted flour 7.50 </li>
+                <li class="lista"> Scrambled eggs </li>
+                <li class="listb"> Scrambled eggs, roasted red pepper and garlic, with green onions 7.50 </li>
+                <li class="lista"> Blueberry Pancakes </li>
+                <li class="listb"> With syrup, butter and lots of berries 8.50 </li>
+            </ul>
+        </div>
+<!--Contact-->
+        <div class="contact">
+            <h2 class="contacthead"> Contact </h2>
+            <p class="contactone"> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. <br> Do not hesitate to contact us. </p>
+            <p class="contacttwo"> Catering Service, 42nd Living St, 43043 New York, NY </p>
+            <p class="contactthree"> You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here: </p>
 
-                </select>
-                <label> Your holidays are: </label>
-                <select name="holidays" required>
-                    <option> Fridays and Saturdays </option>
-                    <option> Saturdays and Sundays  </option>
-                </select>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend> <strong> Essay Section </strong> </legend>
+            <div class="form">
+                <input type="text" placeholder="Name" class="formone">
+                <input type="number" placeholder="How many people" class="formtwo">
+                <input type="datetime-local" class="formthree">
+                <input type="text" placeholder="Message\special requirements" class="formfour">
                 <br>
-                <pr> In 50 words or more explain why you want to get a day Off </pr>
-                <br>
-                <br>
-                <textarea name="essay" placeholder="Enter text here" rows="5" cols="60">
-                </textarea>
-                <br>
-                <br>
-                <label> Upload any papers needed: </label>
-                <input type="file" value="Attach Files" required>
-            </fieldset>
-            <br>
-            <br>
-            <input type="submit" value="Send Your Application" style="background-color: red ; position:relative;left: 45%;">
-       </form> 
-    </body>
+                <input type="submit" value="SEND MESSAGE" class="submit">
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
 </html>
